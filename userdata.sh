@@ -2,7 +2,7 @@
 
 yum update -y
 yum install httpd -y
-yum install git
+yum install git -y
 
 systemctl enable httpd
 systemctl start httpd
